@@ -1,7 +1,9 @@
 var webpack = require('webpack');
 var path = require('path');
 
+//represents the directory path of the bundle file output
 var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
+//directory path of the React apps codebase
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
 
 var config = {
